@@ -28,7 +28,7 @@ def get_filters():
       
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Write day(all, monday, tuesday, ... sunday):").lower()
+    day = input("Write day:").lower()
     while day not in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
         day =input("You can only choose all, monday, tuesday, ... sunday:").lower()
     
