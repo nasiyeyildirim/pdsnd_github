@@ -4,7 +4,7 @@
 22.03.2022
 
 ### Project Title
-Bikeshare project
+Post bikeshare project on github
 
 ### Description
 It is about some statistical information about bikeshare in washington, chicago and new york city
