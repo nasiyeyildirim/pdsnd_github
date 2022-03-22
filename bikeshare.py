@@ -169,7 +169,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data (df):
-
+    #TO DO: ask to the user they woud like to view 5 rows of individual trip data
     view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?")
     start_loc = 0
     while view_data == 'yes' and start_loc+5<df.shape[0]:
